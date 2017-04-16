@@ -1,0 +1,25 @@
+default: &default
+    adapter: mysql2
+    username: root
+    encoding: utf8
+    pool: 5
+    timeout: 5000
+
+development:
+    <<: *default
+    database: avalia_mais_development
+    password: root	
+
+test: &test
+    <<: *default
+    database: avalia_mais_test
+    
+
+production:
+    <<: *default
+    database: avalia_mais_production
+    password: root
+
+
+cucumber:
+  <<: *test

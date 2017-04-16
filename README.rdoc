@@ -1,0 +1,11 @@
+== Avalia+ | Universidade de Brasília (Unb) - FGa | 1º / 2016 
+
+==== Wiki[https://github.com/fga-gpp-mds/2016.1-avalia_mais/wiki]
+
+A collaborative work for the Software Development Methods and Management of Portfolios and projects courses of the University of Brasilia
+
+Project license: AGPL v3 Read {License File}[https://github.com/KarineValenca/avalia_mais/blob/master/LICENSE.md]
+
+
+{<img src="https://codeclimate.com/github/KarineValenca/avalia_mais/badges/gpa.svg" />}[https://codeclimate.com/github/KarineValenca/avalia_mais]
+

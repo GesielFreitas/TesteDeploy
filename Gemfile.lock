@@ -70,6 +70,9 @@ GEM
     capistrano-rails (1.2.0)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
+    capistrano-rvm (0.1.2)
+      capistrano (~> 3.0)
+      sshkit (~> 1.2)
     capybara (2.10.1)
       addressable
       mime-types (>= 1.16)
@@ -385,6 +388,7 @@ DEPENDENCIES
   capistrano (~> 3.7)
   capistrano-bundler (~> 1.2)
   capistrano-rails (~> 1.2)
+  capistrano-rvm
   cocoon
   codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
@@ -395,7 +399,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   metric_fu (~> 4.12)
-  mysql2
+  mysql2 (~> 0.3.18)
   nested_form_fields (>= 0.7.8)
   paperclip (~> 4.3.2)
   rails (= 4.2.4)

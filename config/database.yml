@@ -13,13 +13,6 @@ development:
 test: &test
     <<: *default
     database: avalia_mais_test
-    
-
-production:
-    <<: *default
-    database: avalia_mais_production
-    password: root
-
 
 cucumber:
   <<: *test
